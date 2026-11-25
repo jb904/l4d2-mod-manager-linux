@@ -87,7 +87,7 @@ export L4D2_MOD_MANAGEMENT_DATA_PATH=/mnt/d/l4d2data
 - Python 3.12
 - Steam 正式版（非 Flatpak / Snap）
 
-Flatpak 和 Snap 安装的 Steam 路径不同（`~/.var/app/...` 和 `~/snap/...`），理论可用但未测试。Flatpak 和 Snap 安装的 Steam 路径不同（`~/.var/app/...`和`~/snap/...`），理论上可用但未测试。
+Flatpak 和 Snap 安装的 Steam 路径不同（`~/.var/app/...` 和 `~/snap/...`），理论可用但未测试。
 
 ## 注意
 
