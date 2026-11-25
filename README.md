@@ -1,4 +1,4 @@
-# L4D2 Mod Manager
+# L4D2 Mod ManagerL4D2 模组管理器#L4D2 模组管理器L4D2 Mod Manager
 
 在浏览器里管理 Left 4 Dead 2 本地模组：启用/禁用、改别名、抓取创意工坊标题和预览图。
 
@@ -41,18 +41,18 @@ pip install -r requirements.txt
 python l4d2_mods_Management.py
 ```
 
-浏览器打开 <http://127.0.0.1:5000>
+浏览器打开 <http://127.0.0.1:5000>在浏览器中打开<http://127.0.0.1:5000>
 
 首次运行会让你填一次 addons 路径，例如：
 
 ```
-~/.steam/debian-installation/steamapps/common/Left 4 Dead 2/left4dead2/addons
+~/.steam/debian-installation/steamapps/common/Left 4 Dead 2/left4dead2/addons~/.steam/debian-installation/steamapps/common/求生之路2/left4dead2/addons~/.steam/debian-installation/steamapps/common/求生之路2/left4dead2/addons~/.steam/debian-installation/steamapps/common/求生之路2/left4dead2/addons
 ```
 
 或（Steam 默认安装位置）：
 
 ```
-~/.local/share/Steam/steamapps/common/Left 4 Dead 2/left4dead2/addons
+~/.local/share/Steam/steamapps/common/Left 4 Dead 2/left4dead2/addons~/.local/share/Steam/steamapps/common/求生之路2/left4dead2/addons
 ```
 
 路径会写入 `config.txt`，以后不再询问。填错了就删掉 `config.txt` 重新运行一次。
@@ -71,7 +71,7 @@ python l4d2_mods_Management.py
 
 可以用环境变量改位置：
 
-```bash
+```bash巴什
 export L4D2_MOD_MANAGEMENT_DATA_PATH=/mnt/d/l4d2data
 ```
 
@@ -87,15 +87,14 @@ export L4D2_MOD_MANAGEMENT_DATA_PATH=/mnt/d/l4d2data
 - Python 3.12
 - Steam 正式版（非 Flatpak / Snap）
 
-Flatpak 和 Snap 安装的 Steam 路径不同（`~/.var/app/...` 和 `~/snap/...`），理论可用但未测试。
+Flatpak 和 Snap 安装的 Steam 路径不同（`~/.var/app/...` 和 `~/snap/...`），理论可用但未测试。Flatpak 和 Snap 安装的 Steam 路径不同（`~/.var/app/...`和`~/snap/...`），理论上可用但未测试。
 
 ## 注意
 
 - 仅支持 Linux 路径
 - 只使用 Steam 公开 Web API，不修改游戏文件
 - 默认只绑定 `127.0.0.1`，请勿改为 `0.0.0.0` 对外开放
-- 发布前请把 `app.run(..., debug=True)` 改成 `debug=False`
 
-## License
+## License##许可证##许可证##许可证##许可证##许可证##许可证##许可证##许可证##许可证##许可证##许可证##许可证##许可证##许可证##许可证
 
 MIT
