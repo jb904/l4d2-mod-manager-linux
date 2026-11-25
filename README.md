@@ -41,7 +41,7 @@ pip install -r requirements.txt
 python l4d2_mods_Management.py
 ```
 
-浏览器打开 <http://127.0.0.1:5000>在浏览器中打开<http://127.0.0.1:5000>
+然后在浏览器中打开<http://127.0.0.1:5000>
 
 首次运行会让你填一次 addons 路径，例如：
 
