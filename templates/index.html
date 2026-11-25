@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L4D2 模组管理</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-tab="all"><span class="ico">🗂️</span><span>全部模组</span></button>
+    <button class="tab" data-tab="enabled"><span class="ico">✅</span><span>启用模组</span></button>
+    <button class="tab" data-tab="disabled"><span class="ico">⛔</span><span>禁用模组</span></button>
+  </div>
+
+  <div class="modes" id="modes" hidden>
+    <div class="mode-title">操作方式</div>
+    <label><input type="radio" name="mode" value="alias"> 改别名</label>
+    <label><input type="radio" name="mode" value="refetch"> 重新获取名字</label>
+    <label><input type="radio" name="mode" value="disable"> 禁用</label>
+    <label><input type="radio" name="mode" value="enable"> 启用</label>
+  </div>
+</aside>
+
+<main class="content">
+  <div id="list" class="list"></div>
+
+  <footer class="bar">
+    <label class="pick-all" hidden><input type="checkbox" id="pickAll"> 全选</label>
+    <span id="count">已选 0 项</span>
+    <button id="apply">执行</button>
+  </footer>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
